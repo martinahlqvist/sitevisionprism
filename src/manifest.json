@@ -1,0 +1,9 @@
+{
+   "id": "consid.sitevisionprism",
+   "version": "1.0.0",
+   "name": "Prism",
+   "author": "Consid AB",
+   "description": "Display code in sitevision using Prism",
+   "helpUrl": "https://help.sitevision.se",
+   "type": "WebApp"
+}

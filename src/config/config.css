@@ -1,0 +1,11 @@
+.con-hidden {
+    display:none;
+}
+
+#sourceType label {
+    display: block;
+}
+
+#sourceType input[type="radio"] {
+    margin-right: 0.5em;
+}

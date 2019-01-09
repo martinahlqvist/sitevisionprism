@@ -1,0 +1,32 @@
+{
+  "name": "prism",
+  "version": "1.0.0",
+  "description": "Display code in sitevision using prism",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KSABMartin/sitevisionprism"
+  },
+  "scripts": {
+    "setup": "node util/setup.js",
+    "zip": "node util/zip.js",
+    "deploy": "npm run zip && node util/deploy.js",
+    "force-deploy": "npm run zip && node util/deploy.js force",
+    "create-addon": "node util/create-addon.js",
+    "sign": "npm run zip && node util/sign.js",
+    "prod-deploy": "node util/prod-deploy.js"
+  },
+  "license": "MIT",
+  "author": "SiteVision AB",
+  "bugs": {
+    "url": "https://github.com/KSABMartin/sitevisionprism"
+  },
+  "homepage": "https://github.com/KSABMartin/sitevisionprism#readme",
+  "devDependencies": {
+    "inquirer": "^5.2.0",
+    "jsonfile": "^4.0.0",
+    "request": "^2.87.0",
+    "zip-dir": "^1.0.2"
+  },
+  "dependencies": {}
+}
